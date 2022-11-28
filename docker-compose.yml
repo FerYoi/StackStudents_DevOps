@@ -1,8 +1,8 @@
 version: '3.4'
 
 services:
-  kodotiazuredevops.api:
-    image: ${DOCKER_REGISTRY-}stackstudentsdevopsapi
+  StackStudentsAzureDevOps.api:
+    image: ${DOCKER_REGISTRY-}StackStudentsAzureDevOpsapi
     build:
       context: .
-      dockerfile: src\stackstudentsAzureDevOps.Api\Dockerfile
+      dockerfile: src\StackStudentsAzureDevOps.Api\Dockerfile

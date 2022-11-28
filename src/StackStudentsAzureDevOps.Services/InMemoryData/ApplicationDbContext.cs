@@ -1,9 +1,9 @@
 ﻿using Faker;
-using KodotiAzureDevOps.Models;
+using StackStudentsAzureDevOps.Models;
 using System;
 using System.Collections.Generic;
 
-namespace KodotiAzureDevOps.Services.InMemoryData
+namespace StackStudentsAzureDevOps.Services.InMemoryData
 {
     public class ApplicationDbContext
     {

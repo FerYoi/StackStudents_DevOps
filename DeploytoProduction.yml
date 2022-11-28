@@ -17,7 +17,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-    name: dep-stackstudentsapiprod
+    name: dep-StackStudentsAzureDevOpsapiprod
 spec:
     replicas: 1
     strategy:
@@ -28,12 +28,12 @@ spec:
     template:
         metadata:
             labels:
-                app: app-stackstudentsapiprod
+                app: app-StackStudentsAzureDevOpsapiprod
         spec:
             containers:
-            - image: dockerapiatc.azurecr.io/stackstudentsdevopsapi:__Build.BuildId__
+            - image: dockerapiatc.azurecr.io/StackStudentsAzureDevOpsapi:__Build.BuildId__
               imagePullPolicy: IfNotPresent
-              name: stackstudentsapiprod
+              name: StackStudentsAzureDevOpsprod
               ports:
               - containerPort: 80
               env:

@@ -17,7 +17,7 @@ spec:
 apiVersion: extensions/v1beta1
 kind: Deployment
 metadata:
-    name: dep-stackstudentsdevopsapistag
+    name: dep-StackStudentsAzureDevOpsapistag
 spec:
     replicas: 1
     strategy:
@@ -28,12 +28,12 @@ spec:
     template:
         metadata:
             labels:
-                app: app-stackstudentsdevopsapistag
+                app: app-StackStudentsAzureDevOpsapistag
         spec:
             containers:
-            - image: dockerapiatc.azurecr.io/stackstudentsdevopsapis:__Build.BuildId__
+            - image: dockerapiatc.azurecr.io/StackStudentsAzureDevOpsapis:__Build.BuildId__
               imagePullPolicy: IfNotPresent
-              name: stackstudentsdevopsapistag
+              name: StackStudentsAzureDevOpsapistag
               ports:
               - containerPort: 80
               env:

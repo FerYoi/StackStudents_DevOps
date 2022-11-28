@@ -1,10 +1,10 @@
-﻿using KodotiAzureDevOps.Models;
-using KodotiAzureDevOps.Services.InMemoryData;
+﻿using StackStudentsAzureDevOps.Models;
+using StackStudentsAzureDevOps.Services.InMemoryData;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace KodotiAzureDevOps.Services
+namespace StackStudentsAzureDevOps.Services
 {
     public class UserService
     {

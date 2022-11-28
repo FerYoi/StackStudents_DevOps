@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj" />
+    <ProjectReference Include="..\StackStudentsAzureDevOps.Models\StackStudentsAzureDevOps.Models.csproj" />
   </ItemGroup>
 
 </Project>

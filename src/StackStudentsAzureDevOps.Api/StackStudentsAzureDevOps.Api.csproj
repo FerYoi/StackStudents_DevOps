@@ -12,8 +12,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\KodotiAzureDevOps.Models\KodotiAzureDevOps.Models.csproj" />
-    <ProjectReference Include="..\KodotiAzureDevOps.Services\KodotiAzureDevOps.Services.csproj" />
+    <ProjectReference Include="..\StackStudentsAzureDevOps.Models\StackStudentsAzureDevOps.Models.csproj" />
+    <ProjectReference Include="..\StackStudentsAzureDevOps.Services\StackStudentsAzureDevOps.Services.csproj" />
   </ItemGroup>
 
 

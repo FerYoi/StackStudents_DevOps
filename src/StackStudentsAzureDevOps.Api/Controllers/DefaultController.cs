@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System;
 
-namespace KodotiAzureDevOps.Api.Controllers
+namespace StackStudentsAzureDevOps.Api.Controllers
 {
     [ApiController]
     [Route("/")]

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace KodotiAzureDevOps.Models
+namespace StackStudentsAzureDevOps.Models
 {
     public class User
     {

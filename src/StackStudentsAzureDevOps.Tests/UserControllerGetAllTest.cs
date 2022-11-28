@@ -1,9 +1,9 @@
-using KodotiAzureDevOps.Api.Controllers;
-using KodotiAzureDevOps.Services.InMemoryData;
+using StackStudentsAzureDevOps.Api.Controllers;
+using StackStudentsAzureDevOps.Services.InMemoryData;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace KodotiAzureDevOps.Tests
+namespace StackStudentsAzureDevOps.Tests
 {
     [TestClass]
     public class UserControllerGetAllTest

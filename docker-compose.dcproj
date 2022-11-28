@@ -6,7 +6,7 @@
     <ProjectGuid>8a5aa500-0774-4cd1-ac13-118a4998e353</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://{ServiceIPAddress}{ServicePort}</DockerServiceUrl>
-    <DockerServiceName>stackstudentsdevop.api</DockerServiceName>
+    <DockerServiceName>StackStudentsAzureDevOps.api</DockerServiceName>
   </PropertyGroup>
   <ItemGroup>
     <None Include="docker-compose.override.yml">
