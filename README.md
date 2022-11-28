@@ -11,7 +11,7 @@ Un proyecto que ayude a la comunidad estudiantil de la Universidad Tecnológica 
 }
 ```
 
-## Comando usados
+## Comandos usados
 ```
 az login
 
