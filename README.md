@@ -37,6 +37,6 @@ az aks browse --resource-group prodaksstackstudents --name ProdWinAKS
 ```
 
 ## StackStudents Producción
-El recurso esta disponible a través del siguiente link https://stackstudents.desarrolladorferizamart.com/
+El recurso esta disponible a través del siguiente link https://stackstudents.desarrolladorferizamart.com/login
 User: demo  
 Pass: demo1234
